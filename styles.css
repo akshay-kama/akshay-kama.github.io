@@ -262,6 +262,30 @@ h3 {
 
 .simple-hero {
   grid-template-columns: 1fr;
+  min-height: auto;
+}
+
+.deletion-hero {
+  min-height: auto;
+}
+
+.deletion-section h2 {
+  max-width: 14ch;
+}
+
+.detail-list {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.detail-list li + li {
+  margin-top: 0.45rem;
+}
+
+.deletion-contact {
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 860px) {

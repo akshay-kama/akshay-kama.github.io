@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poker Chips Account Deletion</title>
+    <meta
+      name="description"
+      content="How to delete your Poker Chips account and associated data."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero simple-hero deletion-hero">
+        <nav class="topbar">
+          <span class="brand">AK</span>
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="https://github.com/akshay-kama" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </nav>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Poker Chips</p>
+          <h1>Account Deletion</h1>
+          <p class="intro">This page explains how Poker Chips users can delete their account and associated data.</p>
+        </div>
+      </header>
+
+      <main>
+        <section class="section deletion-section">
+          <div class="section-grid">
+            <div class="section-heading">
+              <p class="section-label">How It Works</p>
+              <h2>Delete directly in the app.</h2>
+            </div>
+            <div class="section-body">
+              <p>
+                Poker Chips creates an anonymous account automatically using Firebase Anonymous Authentication when the app is first used.
+                Users do not create a username or password.
+              </p>
+              <p>
+                To delete your account and associated data, open the app and go to <strong>About/Support</strong>, then select
+                <strong>Delete My Data</strong>.
+              </p>
+              <p>
+                This deletes the anonymous account and associated Poker Chips data tied to that account.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section deletion-section">
+          <div class="section-grid">
+            <div class="section-heading">
+              <p class="section-label">What Gets Deleted</p>
+              <h2>Associated app data removed with the account.</h2>
+            </div>
+            <div class="section-body">
+              <ul class="detail-list">
+                <li>The Firebase anonymous account used by Poker Chips on that device.</li>
+                <li>Hosted tables owned by that account.</li>
+                <li>Owned player records associated with that account.</li>
+                <li>Related feed records associated with those owned records.</li>
+              </ul>
+              <p>
+                No additional retention period is intended after deletion completes in the app.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-panel deletion-contact">
+          <div>
+            <p class="section-label">Need Help?</p>
+            <h3>Contact support if you need assistance with deletion.</h3>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:pokerchipsapp@gmail.com">pokerchipsapp@gmail.com</a>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
